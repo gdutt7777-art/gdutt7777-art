@@ -1,6 +1,9 @@
 # Hii I am
 #     Guru Dutt 👋
 
+[![Languages](https://img.shields.io/badge/languages-HTML%20%7C%20Java-orange)](https://github.com/gdutt7777-art/new-jv)
+[![Open to Work](https://img.shields.io/badge/open%20to%20hire-yes-green)]()
+
 ## Tagline
 Warrior of Code — crafting reliable, team-driven web solutions with punctuality and purpose.
 
