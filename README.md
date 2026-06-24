@@ -1,6 +1,5 @@
-# Guru-Dutt
-Profile README and Assets
-# Guru Dutt 👋
+# Hii I am
+#     Guru Dutt 👋
 ![Banner](banner.svg)
 ![Avatar](avatar.svg)
 
