@@ -1,4 +1,5 @@
-# Hii I am
+<!-- Creative intro banner -->
+![Intro](intro.svg)
 #     Guru Dutt 👋
 
 [![Languages](https://img.shields.io/badge/languages-HTML%20%7C%20Java-orange)](https://github.com/gdutt7777-art/new-jv)
