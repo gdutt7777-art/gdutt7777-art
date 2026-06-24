@@ -77,14 +77,7 @@ new.jv began as a personal challenge and became a practical tool for Sarathi. If
 ---
 
 ## Contact
-![Contact Card](contact.svg)
 
-<p>
-  <a href="mailto:gdutt7777@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-gdutt7777%40gmail.com-1E90FF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/guru-dutt-b0a850412"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/gdutt7777-art"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-View%20profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-<?xml version="1.0" encoding="UTF-8"?>
 <svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contact card for Guru Dutt">
   <defs>
     <linearGradient id="gradA" x1="0" x2="1">
