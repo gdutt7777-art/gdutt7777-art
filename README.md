@@ -78,60 +78,15 @@ new.jv began as a personal challenge and became a practical tool for Sarathi. If
 
 ## Contact
 
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contact card for Guru Dutt">
-  <defs>
-    <linearGradient id="gradA" x1="0" x2="1">
-      <stop offset="0" stop-color="#7B61FF"/>
-      <stop offset="1" stop-color="#FF6B6B"/>
-    </linearGradient>
-    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
-    </filter>
-  </defs>
+![Contact Card](contact.svg)
 
-  <!-- Card background -->
-  <rect x="0" y="0" width="900" height="120" rx="12" fill="#071026"/>
-
-  <!-- Left accent bar -->
-  <rect x="16" y="16" width="8" height="88" rx="4" fill="url(#gradA)" />
-
-  <!-- Title -->
-  <g transform="translate(40,36)" filter="url(#softShadow)">
-    <text x="0" y="14" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700" fill="url(#gradA)">
-      Contact
-    </text>
-    <text x="0" y="46" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#9fb4d6">
-      Guru Dutt — Web Developer (Full Stack)
-    </text>
-  </g>
-
-  <!-- Email block -->
-  <g transform="translate(420,22)">
-    <rect x="0" y="0" rx="8" ry="8" width="440" height="34" fill="#0f2740" />
-    <text x="14" y="22" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#74b0ff">
-      ✉️ gdutt7777@gmail.com
-    </text>
-  </g>
-
-  <!-- Links row -->
-  <g transform="translate(420,62)">
-    <rect x="0" y="0" rx="8" ry="8" width="210" height="34" fill="#17233a" />
-    <text x="14" y="22" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#0A66C2">
-      LinkedIn — /guru-dutt-b0a850412
-    </text>
-
-    <rect x="230" y="0" rx="8" ry="8" width="210" height="34" fill="#17233a" />
-    <text x="244" y="22" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#ffffff">
-      GitHub — gdutt7777-art
-    </text>
-  </g>
-
-  <!-- subtle footer -->
-  <text x="20" y="110" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#2a4056">
-    Reach out — I’m open to hire, collaboration, and quick demos.
-  </text>
-</svg>
+<p>
+  <a href="mailto:gdutt7777@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-gdutt7777%40gmail.com-1E90FF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/guru-dutt-b0a850412"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/gdutt7777-art"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-View%20profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+  
+    
 
 
 
