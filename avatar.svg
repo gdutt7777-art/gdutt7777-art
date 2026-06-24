@@ -1,151 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Professional warrior avatar">
-  <title>Warrior avatar — professional, minimalist</title>
-  <desc>Minimal professional warrior silhouette with polished helmet, shield and sword — neutral palette and crisp geometry for profile use.</desc>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar: GD — Guru Dutt">
+  <title>Guru Dutt — Avatar</title>
+  <desc>Simple, professional circular avatar with a soft gradient and bold initials "GD".</desc>
 
   <defs>
-    <!-- Soft ambient gradient background -->
     <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#f6fbff"/>
-      <stop offset="1" stop-color="#eaf4ff"/>
+      <stop offset="0" stop-color="#7CC6FF"/>
+      <stop offset="1" stop-color="#BDA8FF"/>
     </linearGradient>
 
-    <!-- Deep circle vignette -->
-    <radialGradient id="vignette" cx="50%" cy="30%" r="70%">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.0"/>
-      <stop offset="1" stop-color="#0b1a2a" stop-opacity="0.06"/>
+    <radialGradient id="glow" cx="35%" cy="25%" r="60%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Metal gradient for sword -->
-    <linearGradient id="metal" x1="0" x2="1">
-      <stop offset="0" stop-color="#f4f6f8"/>
-      <stop offset="0.5" stop-color="#cfd6dc"/>
-      <stop offset="1" stop-color="#f4f6f8"/>
-    </linearGradient>
-
-    <!-- Shield gradient -->
-    <linearGradient id="shieldGrad" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#12303f"/>
-      <stop offset="1" stop-color="#0a2530"/>
-    </linearGradient>
-
-    <!-- Cape gradient -->
-    <linearGradient id="capeGrad" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#2b6b88"/>
-      <stop offset="1" stop-color="#1b4f67"/>
-    </linearGradient>
-
-    <!-- subtle shadow -->
-    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
-      <feOffset in="blur" dx="0" dy="16" result="offset"/>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feOffset dx="0" dy="6" result="off"/>
       <feMerge>
-        <feMergeNode in="offset"/>
+        <feMergeNode in="off"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
-      <feColorMatrix type="matrix" values="0 0 0 0 0
-                                           0 0 0 0 0
-                                           0 0 0 0 0
-                                           0 0 0 0.35"/>
     </filter>
-
-    <!-- small highlight stroke -->
-    <linearGradient id="edge" x1="0" x2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
-    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1024" height="1024" fill="url(#bgGrad)"/>
+  <!-- Outer background circle -->
+  <rect width="100%" height="100%" rx="72" fill="transparent"/>
 
-  <!-- Horizon arc for depth -->
-  <g transform="translate(0,120)">
-    <ellipse cx="512" cy="700" rx="700" ry="220" fill="#eef7fb"/>
-    <ellipse cx="512" cy="700" rx="700" ry="220" fill="url(#vignette)"/>
+  <g transform="translate(256,256)" filter="url(#softShadow)">
+    <circle r="200" fill="url(#bgGrad)"/>
+    <circle r="200" fill="url(#glow)"/>
+    <!-- thin ring -->
+    <circle r="200" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="6"/>
   </g>
 
-  <!-- Distant army (minimal, geometric) -->
-  <g fill="#c6d7e6" opacity="0.75" transform="translate(0,160)">
-    <g transform="translate(140,480) scale(0.9)">
-      <rect x="0" y="8" width="10" height="28" rx="2"/>
-      <circle cx="5" cy="0" r="5"/>
-    </g>
-    <g transform="translate(260,500) scale(0.9)">
-      <rect x="0" y="8" width="10" height="26" rx="2"/>
-      <circle cx="5" cy="0" r="5"/>
-    </g>
-    <g transform="translate(380,492) scale(0.9)">
-      <rect x="0" y="8" width="10" height="30" rx="2"/>
-      <circle cx="5" cy="0" r="5"/>
-    </g>
-    <g transform="translate(640,496) scale(0.9)">
-      <rect x="0" y="8" width="10" height="28" rx="2"/>
-      <circle cx="5" cy="0" r="5"/>
-    </g>
-    <g transform="translate(780,504) scale(0.9)">
-      <rect x="0" y="8" width="10" height="26" rx="2"/>
-      <circle cx="5" cy="0" r="5"/>
-    </g>
-  </g>
+  <!-- Monogram -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
+        font-family="Inter, Roboto, Arial, sans-serif"
+        font-weight="800" font-size="168" fill="#ffffff" letter-spacing="-4">
+    GD
+  </text>
 
-  <!-- Central badge circle for crisp cropping -->
-  <g transform="translate(512,360)">
-    <circle cx="0" cy="0" r="260" fill="#ffffff" opacity="0.98" stroke="#e6eef6" stroke-width="6"/>
-    <circle cx="0" cy="0" r="260" fill="none" stroke="url(#vignette)" stroke-width="1"/>
-  </g>
-
-  <!-- Main warrior group -->
-  <g transform="translate(512,360)" filter="url(#drop)">
-    <!-- Cape (back) -->
-    <path d="M-120,80 C -220,150 -220,340 -30,420 C 60,460 140,420 200,360 C 140,300 40,170 -20,120 C -60,95 -80,90 -120,80 Z"
-          fill="url(#capeGrad)" />
-
-    <!-- Body / torso -->
-    <path d="M-38,40 C -52,120 -48,200 -10,240 C 18,270 56,270 84,236 C 110,200 114,120 100,40 Z"
-          fill="#0f2a36"/>
-
-    <!-- Armor chest plate -->
-    <path d="M-36,48 C -10,90 10,112 50,112 C 80,112 104,92 104,92 C 70,160 -20,180 -68,120 Z"
-          fill="#163844" stroke="#235267" stroke-width="2"/>
-
-    <!-- Helmet (polished) -->
-    <g transform="translate(0,-120)">
-      <ellipse cx="0" cy="0" rx="70" ry="72" fill="#0f2a36"/>
-      <path d="M-70,-6 C -70,-36 -40,-68 0,-68 C 40,-68 70,-36 70,-6 C 34,10  -34,10 -70,-6 Z"
-            fill="url(#shieldGrad)"/>
-      <!-- visor -->
-      <rect x="-46" y="-8" width="92" height="28" rx="14" fill="#071826"/>
-      <rect x="-42" y="-6" width="84" height="20" rx="10" fill="url(#edge)" opacity="0.18"/>
-      <!-- helmet ridge -->
-      <path d="M-38,-32 C -20,-48 20,-48 38,-32" stroke="#9fb7c8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
-    </g>
-
-    <!-- Left shield (foreground) -->
-    <g transform="translate(-120,40)">
-      <ellipse cx="0" cy="0" rx="82" ry="110" fill="url(#shieldGrad)" stroke="#1b3850" stroke-width="4"/>
-      <path d="M0,-84 C 28,-64 44,-28 44,6 C 44,64 0,92 0,92 C 0,92 -44,64 -44,6 C -44,-28 -28,-64 0,-84 Z"
-            fill="none" stroke="#2a5066" stroke-width="2" opacity="0.14"/>
-      <rect x="-14" y="-18" width="28" height="52" rx="6" fill="#071826"/>
-      <rect x="-4" y="-10" width="8" height="36" rx="3" fill="#b7c9d6" opacity="0.18"/>
-    </g>
-
-    <!-- Sword (right, raised) -->
-    <g transform="translate(140,-40) rotate(-12)">
-      <!-- hilt -->
-      <rect x="-10" y="70" width="20" height="36" rx="4" fill="#2b3f4b"/>
-      <rect x="-24" y="56" width="48" height="14" rx="3" fill="#9aa9b2"/>
-      <!-- blade -->
-      <path d="M0,56 L6,-200 L-6,-200 Z" fill="url(#metal)" stroke="#c9d2d9" stroke-width="1"/>
-      <rect x="-2" y="-200" width="4" height="18" fill="#9aa9b2"/>
-    </g>
-
-    <!-- Small highlights on armor -->
-    <path d="M-24,20 C 10,48 46,48 74,22" stroke="#8fb6c8" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.12"/>
-  </g>
-
-  <!-- Subtle name caption (optional small) -->
-  <text x="512" y="980" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#617685" opacity="0.9">
-    Guru Dutt — Warrior of Code
+  <!-- Subtle lower accent (optional small tagline) -->
+  <text x="50%" y="420" text-anchor="middle"
+        font-family="Inter, Roboto, Arial, sans-serif"
+        font-size="18" fill="#f3f6fb" opacity="0.85">
+    Guru Dutt
   </text>
 </svg>
