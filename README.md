@@ -2,7 +2,7 @@
 ![Intro](intro.svg)
 
 # Guru Dutt 👋
-![Banner](banner.svg)
+
 
 [![Languages](https://img.shields.io/badge/languages-Python%20%7C%20CSS%20%7C%20HTML%20%7C%20Java%20%7C%20JavaScript-blueviolet)](https://github.com/gdutt7777-art/Project-STOK-MARK)
 [![Open to Work](https://img.shields.io/badge/open%20to%20hire-yes-green)]()
