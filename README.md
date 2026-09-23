@@ -4,14 +4,26 @@
 # Guru Dutt 👋
 ![Banner](banner.svg)
 
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+</p>
 
-[![Languages](https://img.shields.io/badge/languages-HTML%20%7C%20Java-orange)](https://github.com/gdutt7777-art/new-jv)
+<p align="center">
+  <strong>🐍 Python Developer</strong> &nbsp;•&nbsp; <strong>🎨 CSS Creator</strong> &nbsp;•&nbsp; <strong>🌐 Full-Stack Web Developer</strong>
+</p>
+
+[![Languages](https://img.shields.io/badge/languages-Python%20%7C%20CSS%20%7C%20HTML%20%7C%20Java%20%7C%20JavaScript-blueviolet)](https://github.com/gdutt7777-art/Project-STOK-MARK)
 [![Open to Work](https://img.shields.io/badge/open%20to%20hire-yes-green)]()
 
 ---
 
 ## Tagline
-Warrior of Code — crafting reliable, team-driven web solutions and Data Analysis with punctuality and purpose. 
+Warrior of Code — crafting reliable, team-driven web solutions and Data Analysis with punctuality and purpose.
 
 ---
 
