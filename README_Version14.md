@@ -27,7 +27,12 @@ I’m a confident, professional, team-oriented full‑stack web developer who va
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
+  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-5B7C99?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img alt="Chrome DevTools" src="https://img.shields.io/badge/DevTools-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
@@ -35,7 +40,12 @@ I’m a confident, professional, team-oriented full‑stack web developer who va
 
 - Java (OOP) — robust backend logic  
 - HTML — semantic & accessible structure  
-- Python — scripting & tooling  
+- CSS — responsive, polished interfaces  
+- Python — scripting, automation, and tooling  
+- NumPy — numerical computing and data operations  
+- Pandas — data wrangling and analysis  
+- Matplotlib — data visualization and reporting  
+- Tkinter — desktop app interfaces  
 - VS Code — efficient development flow  
 - Git / GitHub — version control & reviews  
 - Chrome DevTools — debugging & performance
