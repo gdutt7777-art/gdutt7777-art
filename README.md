@@ -15,10 +15,10 @@ Warrior of Code — crafting reliable web solutions and data-driven insights wit
 ---
 
 ## About
-I’m a confident, professional, team-oriented full‑stack web developer who values punctuality and clear communication. I build practical web apps that help real people and organizations.
+I’m a full-stack web developer and data analyst who enjoys building practical digital solutions and turning raw data into meaningful insights. I combine clean front-end development with strong backend logic and analytical thinking to create tools that are useful, reliable, and easy to work with.
 
-- Title: Web Developer (Full Stack)  
-- Looking for: Collaboration, freelance work, or full‑time roles — open to hire and eager to join a great team.
+- Title: Full-Stack Web Developer & Data Analyst  
+- Looking for: Collaboration, freelance work, or full-time roles — open to hire and excited to contribute to a strong team.
 
 ---
 
