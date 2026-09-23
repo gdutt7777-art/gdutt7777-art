@@ -11,7 +11,7 @@
 ---
 
 ## Tagline
-Warrior of Code — crafting reliable, team-driven web solutions with punctuality and purpose.
+Warrior of Code — crafting reliable, team-driven web solutions and Data Analysis with punctuality and purpose. 
 
 ---
 
