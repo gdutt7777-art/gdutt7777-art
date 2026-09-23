@@ -52,43 +52,44 @@ I’m a confident, professional, team-oriented full‑stack web developer who va
 
 ---
 
-## Featured Project — new.jv
-An app I built for the NGO Sarathi to practice full‑stack development and deliver a lightweight, practical tool.
+## Featured Project — Project STOK-MARK
+**STOK-MARK – Trading Tracker** is a web-based stock-market analysis and trading simulation application designed to help users analyse historical stock data and understand trading performance.
 
-[View repository →](https://github.com/gdutt7777-art/new-jv)
+[View repository →](https://github.com/gdutt7777-art/Project-STOK-MARK)
 
-Languages: HTML • Java
+### Technologies
+Python • Flask • Pandas • NumPy • yfinance • HTML5 • CSS3 • JavaScript • Chart.js
 
-Short overview  
-I built new.jv solo to combine clean HTML with simple Java logic. It helps NGO staff with basic workflows while staying accessible, fast, and easy to maintain.
+### Overview
+The application retrieves historical market data and applies technical-analysis techniques such as Moving Average, RSI, and MACD to generate rule-based Buy, Hold, and Sell signals. It also provides an educational backtesting facility for testing a trading strategy over a selected historical period using specified initial capital.
 
-Why this matters
-- Real impact: a practical tool for NGO staff and volunteers  
-- Focused learning: stronger HTML and Java skills through real work  
-- Product-first: simple, maintainable features that solve real problems
+### Key features
+- Historical stock-market data retrieval using yfinance  
+- Technical indicators including Moving Average, RSI, and MACD  
+- Rule-based Buy, Hold, and Sell signal generation  
+- Strategy backtesting over a selected historical period  
+- Performance metrics including Total Return, CAGR, Maximum Drawdown, Volatility, Sharpe Ratio, Win Rate, Number of Trades, Best Trade, and Worst Trade  
+- Buy-and-hold performance comparison  
+- Interactive stock-price, portfolio-performance, signal, and analytics charts using Chart.js  
+- Modular architecture for data retrieval, strategy analysis, signal generation, backtesting, and analytics
 
-Key features
-- Semantic HTML for forms and pages  
-- Java logic for interactive elements and validation  
-- Mobile-first responsive design  
-- Lightweight assets for low-bandwidth use  
-- Simple admin-style interface for NGO users
+### Architecture flow
+**User Input** → **Web Dashboard** → **Flask Backend** → **Historical Data Retrieval** → **Pandas & NumPy Processing** → **Technical Analysis** → **Signal Generation** → **Backtesting** → **Performance Analytics** → **Charts & Results**
 
-Try it locally
-1. Clone the repo:  
-   git clone https://github.com/gdutt7777-art/new-jv.git
+### Project objective
+STOK-MARK combines technical indicators, automated data processing, trading signals, performance analytics, and visual charts in one dashboard. It is primarily an educational and analytical tool for understanding stock-market data and evaluating trading strategies using historical data, not a source of guaranteed predictions about future market performance.
 
-2. Open the HTML files in a browser (static) or run Java parts with your preferred Java server/tooling.
-
-How to help
-- Star the repo ⭐  
-- Open issues for bugs or ideas — feedback welcome  
-- Submit small PRs for polish or accessibility
+### Try it locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gdutt7777-art/Project-STOK-MARK.git
+   ```
+2. Follow the setup instructions in the project repository to install dependencies and run the Flask application.
 
 ---
 
 ## Conclusion
-new.jv began as a personal challenge and became a practical tool for Sarathi. If you’d like a quick demo, feedback, or to collaborate — drop me a line.
+Project STOK-MARK combines Python-based data analysis with an interactive Flask dashboard to make technical analysis and historical strategy backtesting easier to understand. If you’d like to explore the project or collaborate, feel free to get in touch.
 
 ---
 
