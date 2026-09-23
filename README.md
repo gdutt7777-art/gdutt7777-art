@@ -10,10 +10,7 @@
 ---
 
 ## Tagline
-Warrior of Code — crafting reliable, team-driven web solutions with punctuality and purpose.
-
-## Data Analyst Tagline
-Data Analyst & Web Developer — turning raw data into insight and ideas into digital solutions.
+Warrior of Code — crafting reliable web solutions and data-driven insights with punctuality and purpose.
 
 ---
 
