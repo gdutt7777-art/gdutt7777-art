@@ -15,7 +15,7 @@ Warrior of Code — crafting reliable web solutions and data-driven insights wit
 ---
 
 ## About
-I’m a full-stack web developer and data analyst who enjoys building practical digital solutions and turning raw data into meaningful insights. I combine clean front-end development with strong backend logic and analytical thinking to create tools that are useful, reliable, and easy to work with.
+I’m a full-stack web developer and data analyst who enjoys building practical digital solutions and turning raw data into meaningful insights. I combine clean front-end development with strong backe[...]
 
 - Title: Full-Stack Web Developer & Data Analyst  
 - Looking for: Collaboration, freelance work, or full-time roles — open to hire and excited to contribute to a strong team.
@@ -28,6 +28,7 @@ I’m a full-stack web developer and data analyst who enjoys building practical 
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="Scikit-Learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
@@ -41,6 +42,7 @@ I’m a full-stack web developer and data analyst who enjoys building practical 
 - HTML — semantic & accessible structure  
 - CSS — responsive, polished interfaces  
 - Python — scripting, automation, and tooling  
+- Scikit-Learn — machine learning, predictive modeling, and data science workflows  
 - NumPy — numerical computing and data operations  
 - Pandas — data wrangling and analysis  
 - Matplotlib — data visualization and reporting  
@@ -60,7 +62,7 @@ I’m a full-stack web developer and data analyst who enjoys building practical 
 Python • Flask • Pandas • NumPy • yfinance • HTML5 • CSS3 • JavaScript • Chart.js
 
 ### Overview
-The application retrieves historical market data and applies technical-analysis techniques such as Moving Average, RSI, and MACD to generate rule-based Buy, Hold, and Sell signals. It also provides an educational backtesting facility for testing a trading strategy over a selected historical period using specified initial capital.
+The application retrieves historical market data and applies technical-analysis techniques such as Moving Average, RSI, and MACD to generate rule-based Buy, Hold, and Sell signals. It also provides an[...]
 
 ### Key features
 - Historical stock-market data retrieval using yfinance  
@@ -73,10 +75,10 @@ The application retrieves historical market data and applies technical-analysis 
 - Modular architecture for data retrieval, strategy analysis, signal generation, backtesting, and analytics
 
 ### Architecture flow
-**User Input** → **Web Dashboard** → **Flask Backend** → **Historical Data Retrieval** → **Pandas & NumPy Processing** → **Technical Analysis** → **Signal Generation** → **Backtesting** → **Performance Analytics** → **Charts & Results**
+**User Input** → **Web Dashboard** → **Flask Backend** → **Historical Data Retrieval** → **Pandas & NumPy Processing** → **Technical Analysis** → **Signal Generation** → **Backtesting** [...]
 
 ### Project objective
-STOK-MARK combines technical indicators, automated data processing, trading signals, performance analytics, and visual charts in one dashboard. It is primarily an educational and analytical tool for understanding stock-market data and evaluating trading strategies using historical data, not a source of guaranteed predictions about future market performance.
+STOK-MARK combines technical indicators, automated data processing, trading signals, performance analytics, and visual charts in one dashboard. It is primarily an educational and analytical tool for u[...]
 
 ### Try it locally
 1. Clone the repository:
@@ -88,7 +90,7 @@ STOK-MARK combines technical indicators, automated data processing, trading sign
 ---
 
 ## Conclusion
-Project STOK-MARK combines Python-based data analysis with an interactive Flask dashboard to make technical analysis and historical strategy backtesting easier to understand. If you’d like to explore the project or collaborate, feel free to get in touch.
+Project STOK-MARK combines Python-based data analysis with an interactive Flask dashboard to make technical analysis and historical strategy backtesting easier to understand. If you’d like to explor[...]
 
 ---
 
